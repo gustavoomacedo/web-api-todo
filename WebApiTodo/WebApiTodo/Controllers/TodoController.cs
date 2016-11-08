@@ -59,7 +59,7 @@ namespace WebApiTodo.Controllers
         public HttpResponseMessage PostTodo(Todo todo)
         {
             if(todo == null)
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
+                return Request.CreateResponse(HttpStatusCode.NoContent);
 
             try
             {
@@ -69,7 +69,7 @@ namespace WebApiTodo.Controllers
                 db.SaveChanges();
 
                 var result = todo;
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                return Request.CreateResponse(HttpStatusCode.Created, result);
             }
             catch(Exception)
             {
