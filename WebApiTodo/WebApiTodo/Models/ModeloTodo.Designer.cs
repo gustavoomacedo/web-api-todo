@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\ti01r_000\Documents\Projetos MVA\WebApiTodo\WebApiTodo\Models\ModeloTodo.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Gustavo\Documents\Repositorios\web-api-todo\WebApiTodo\WebApiTodo\Models\ModeloTodo.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
