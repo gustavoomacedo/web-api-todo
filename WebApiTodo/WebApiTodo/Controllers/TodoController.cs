@@ -30,7 +30,7 @@ namespace WebApiTodo.Controllers
         [Route("todo/{id}")]
         public HttpResponseMessage GetTodoById(int id)
         {
-            var result = db.Todo.Where(t => t.id == id).Include("Item").ToList();
+            var result = db.Todo.Where(t => t.id == id).Include("Item").SingleOrDefault();
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 

@@ -145,6 +145,8 @@
     <Content Include="Models\ModeloTodo.edmx.diagram">
       <DependentUpon>ModeloTodo.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\todoappnew.pubxml" />
+    <None Include="Properties\PublishProfiles\toodoapp - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\toodoapp.pubxml" />
   </ItemGroup>
   <ItemGroup>
